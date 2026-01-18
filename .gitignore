@@ -1,0 +1,24 @@
+﻿# environments
+venv/
+__pycache__/
+*.pyc
+
+# datasets / images
+data/
+dataset/
+datasets/
+train_data/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# model outputs
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# caches
+.cache/
+huggingface/
