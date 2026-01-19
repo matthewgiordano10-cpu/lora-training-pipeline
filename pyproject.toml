@@ -1,4 +1,4 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
@@ -10,3 +10,7 @@ dependencies = ["toml", "rich"]
 
 [project.scripts]
 lora-train = "lora_training_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lora_training_pipeline*"]
+exclude = ["configs*", "docs*", "scripts*", "venv*"]
