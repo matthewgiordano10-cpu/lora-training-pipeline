@@ -1,0 +1,3 @@
+﻿[run]
+output_dir = "outputs"
+seed = 42
